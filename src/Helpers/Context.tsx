@@ -1,10 +1,16 @@
 import { createContext, useState } from 'react';
 import {
   DisplayFill,
+  ExclamationSquare,
   GraphUpArrow,
+  ListColumnsReverse,
   Map,
+  PersonBoundingBox,
+  PersonCircle,
+  PersonWorkspace,
   Signpost2,
   StackOverflow,
+  UpcScan,
 } from 'react-bootstrap-icons';
 import styled from 'styled-components';
 
@@ -313,27 +319,27 @@ export const GlobalDataContextProvider = (props) => {
       },
       {
         title: 'Full Asset List',
-        icon: <StackOverflow />,
+        icon: <ListColumnsReverse />,
       },
       {
         title: 'Search by Customer',
-        icon: <StackOverflow />,
+        icon: <PersonBoundingBox />,
       },
       {
         title: 'Search by Barcode',
-        icon: <StackOverflow />,
+        icon: <UpcScan />,
       },
       {
         title: 'Model Analysis',
-        icon: <StackOverflow />,
+        icon: <PersonWorkspace />,
       },
       {
         title: 'Find Expert Technician',
-        icon: <StackOverflow />,
+        icon: <PersonCircle />,
       },
       {
         title: 'Failure Rate',
-        icon: <StackOverflow />,
+        icon: <ExclamationSquare />,
       },
     ],
     titleBarData: [
